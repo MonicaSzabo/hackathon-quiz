@@ -6,7 +6,7 @@ $(document).ready(function() {
 	    $.ajax({
 	        'async': false,
 	        'global': false,
-	        'url': "/json/data.json",
+	        'url': "http://monicaszabo.com/json/data.json",
 	        'dataType': "json",
 	        'success': function (data) {
 	            json = data[0];
