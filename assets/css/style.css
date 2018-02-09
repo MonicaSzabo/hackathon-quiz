@@ -1,0 +1,46 @@
+* {
+	font-family: 'Inconsolata', monospace;
+}
+
+body {
+	background-color: #17162C;
+	color: #fff;
+}
+
+button {
+	background-color: #648CA6;
+	border: none;
+	border-radius: 12px;
+	color: #fff;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+#question {
+	margin: 2rem;
+}
+
+.answers {
+	background-color: #BFCCE2;
+	color: #000;
+	display: block;
+	text-align: left;
+	width: 100%;
+}
+
+.choice {
+	background-color: #40596F;
+	color: #fff;
+}
+
+#correct-answer,
+#wrong-answer {
+	display: none;
+	margin-top: 2rem;
+}
+
+@media only screen and (max-width: 992px) {
+	.answers {
+		width: 95%;
+	}
+}
